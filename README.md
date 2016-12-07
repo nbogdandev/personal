@@ -1,24 +1,5 @@
-# README
+Hi, this app is for practicing everything i've learned last months.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I've made template ubuntu container on c9 - planning to use it for several rails projects in single c9 workspace, guess, it could be useful.
+This one is for practicing with Rails, Postgres, Bootstrap, Angular, Rspec, Git, Nginx, Capistrano, etc.
+For this moment main idea is for deploying this project to already running VNC and setup both sites run from single droplet on DO. Let's see if i could do that.
