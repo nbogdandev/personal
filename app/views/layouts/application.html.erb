@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Personal</title>
+    <title>Nikita Bogdan</title>
+    <meta id="meta" name="viewport" content="width=device-width; initial-scale=1.0" />
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
@@ -9,6 +10,10 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div id="wrapper">
+		  <div id="header"><%= render 'layouts/header' %></div>
+		  <div id="content"><%= yield %></div>
+		  <div id="footer"><%= render 'layouts/footer' %></div>
+	  </div>
   </body>
 </html>
