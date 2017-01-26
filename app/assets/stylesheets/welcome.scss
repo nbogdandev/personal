@@ -2,7 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
 p {
 margin: 10px;
 }
@@ -13,8 +12,7 @@ margin: 10px;
 }
 
 
- html,
-body {
+html, body {
    margin:0;
    padding:0;
    height:100%;
@@ -40,44 +38,13 @@ body {
    color: #4A4A4A;
   border-top: 1px solid #e5e5e5;
 }
-/* IE 6 and down:
-#container {
-   height:100%;
-}
-
-
-
-
-
-/* Sticky footer styles
--------------------------------------------------- 
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height 
-  margin-bottom: 65px;
-  clear: both;
-}
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here 
-  height: 65px;
-  
-}
-
-#header {
-  color: #4A4A4A;
-  background-color: #EEEEEE;
-}
-
-*/
 
 #image {
   border: 5px solid #4A4A4A;
+/*below code is for inner border smooth corners*/
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 
 @media (min-width: 1200px) {
