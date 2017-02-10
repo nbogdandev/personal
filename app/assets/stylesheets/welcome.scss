@@ -35,6 +35,15 @@ html, body {
 
 p {
 margin: 10px;
+text-align: justify;
+text-justify: inter-word;
+}
+
+li {
+    
+text-align: justify;
+text-justify: inter-word;
+    
 }
 
 a#maersk, #maersk:link, #maersk:visited, #maersk:hover, #maersk:focus, #maersk:active {
