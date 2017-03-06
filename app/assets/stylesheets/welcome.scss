@@ -17,6 +17,7 @@ html, body {
   color: #282828;
   background-color: #EEEEEE;
   padding:9px;
+/*  background-image: url(overlay.png) repeat; */
 }
 
 #body {
@@ -63,6 +64,7 @@ ul > li:before {
 
 #image {
 border: 2px solid #282828;
+opacity: 0;
 /*below code is for inner border smooth corners
   border-radius: 10px;
   -webkit-border-radius: 10px;
